@@ -17,5 +17,5 @@ jobs:
         run: echo "Hello World ! La CI fonctionne"
 
       - name: Afficher la date
-        run: dates
+        run: date
         
