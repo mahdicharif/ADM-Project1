@@ -3,7 +3,7 @@ name: Hello World
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   hello:
@@ -18,3 +18,4 @@ jobs:
 
       - name: Afficher la date
         run: dates
+        
